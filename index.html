@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <nav>
-        <h2>Logo</h2>
-    </nav>
-    <h1>hello world</h1>
-    <button>enter</button>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Random app</h2>
+      <input id="first-num" type="number" placeholder="first number" />
+      <input id="second-num" type="number" placeholder="second number" />
+      <input id="guess-num" type="number" placeholder="guess number" />
+      <button  id="get-random-btn">Get random num</button>
+      <h2>Tasodifiy raqam: <b id="result-num"></b></h2>
+      <h2>Attempt: <span id="attempt-count">3</span></h2>
+      <h2>Result: <span id="result"></span></h2>
 
-</body>
+      <button id="restart-btn">Restart</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
 </html>

@@ -1,15 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: royalblue;
+button{
+  cursor: pointer;
+  border-radius:6px;
 }
-nav{
-    padding:20px 60px;
-    background-color: black;
-    color:white;
-    display: flex;
-    align-items: center;
+input,button{
+    padding: 10px;
+    margin:10px;
+    font-size: 18px;
+}
+.container{
+  margin:30px auto;
+  width: 50%;
+  min-height: 300px;
+  background-color: royalblue;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
